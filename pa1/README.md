@@ -1,2 +1,2 @@
 # 217nlp
-repo for 217nlp assignments
+assignment 1 NER
