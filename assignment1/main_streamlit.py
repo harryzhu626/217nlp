@@ -19,33 +19,8 @@ def ner():
     return xml, entities, tokens, doc.doc
 
 def display_markup(xml):
-    xml2 = """
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <div id="accordion"><div class="card"><div class="card-header" id="headingOne">
-            <h5 class="mb-0">
-                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Collapsible Group Item #1
-                </button>
-            </h5>
-            </div>
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-            <div class="card-body">
-                Collapsible Group Item #1 content
-            </div>
-            </div>
-        </div>
-        </div>
-        """
-
-    xml3 = """
-        <link rel="stylesheet" href="https://github.com/harryzhu626/217nlp_pa/blob/main/pa1/static/css/main.css" crossorigin="anonymous">
-        <entity class="GPE">Turkey</entity> has arrested <entity class="CARDINAL">184</entity> people suspected of responsibility for the collapse of buildings in <entity class="DATE">this month</entity>’s earthquakes and investigations are widening, a minister said on <entity class="DATE">Saturday</entity>, as anger simmers over what many see as corrupt building practices.
-    """
-
     path = '"https://github.com/harryzhu626/217nlp_pa/blob/main/pa1/static/css/main.css"'
     xml = '<link rel="stylesheet" href=' + path + '> ' + xml
-    #xml
-    #st.markdown(xml, unsafe_allow_html=True)
     components.html(xml)
     
 
