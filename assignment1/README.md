@@ -2,8 +2,9 @@
 
 How to USE:
 
+run
 ```sh
-   run pip install -r requirements.txt 
-   ```
+pip install -r requirements.txt 
+```
 
 
