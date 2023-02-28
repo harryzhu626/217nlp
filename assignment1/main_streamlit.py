@@ -49,5 +49,3 @@ if __name__ == "__main__":
     xml, entities, tokens, doc = ner()
     ent_df = to_df(entities)
     display_entities(ent_df)
-    #display_new(doc)
-    #display_markup(xml)
