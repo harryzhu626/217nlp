@@ -37,4 +37,3 @@ curl -H "Content-Type: text/plain" -X POST -d@[txt file name] http://127.0.0.1:5
 and you will receive a html markup of all named entities. 
 
 Have Fun!
- 
