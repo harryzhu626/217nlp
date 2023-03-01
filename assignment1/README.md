@@ -36,10 +36,13 @@ in another terminal, type and enter the command
 curl http://127.0.0.1:5000/api
 ```
 
-you will get a short explanation of how to interact with this api. Enter the command (replace <<txt file name>> with your file)
+you will get a short explanation of how to interact with this api. Enter the command (replace [txt file name] with your filename)
 
 ```sh
-curl -H "Content-Type: text/plain" -X POST -d@<txt file name> http://127.0.0.1:5000/api
+curl -H "Content-Type: text/plain" -X POST -d@[txt file name] http://127.0.0.1:5000/api
 ```
-  
+
+you will receive json markup of all named entities. 
+
+Have Fun!
  
