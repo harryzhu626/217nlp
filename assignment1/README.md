@@ -1,13 +1,14 @@
 # 217nlp spacy NER apps
 
 ## requirements (listed in requirements.txt)
-Python==3.10.9
 Flask==2.2.3
 Flask_RESTful==0.3.9
 pandas==1.5.3
 spacy==2.3.9
 streamlit==1.19.0
 utils==1.0.1
+
+Python 3.10.9
 
 ## How to run:
 
