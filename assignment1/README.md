@@ -1,5 +1,8 @@
 # 217nlp spacy NER apps
 
+## requirements
+
+
 ## How to run:
 
 download the repo. set up your virtual env. in terminal, cd to directory and run
