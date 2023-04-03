@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: lightskyblue;
+        }
+    </style>
+    <title>Doc {{item['id']}}</title>
+</head>
+
+<!--
+    Display the title, author, published date and content of the article. 
+-->
+<body> 
+<p>
+    <center> {{item['title']}} </center>
+</p>
+
+<p>
+    <center> Author: {{item['author']}} </center>
+</p>
+
+<p>
+    <center> Date: {{item['published_date']}} </center>
+</p>
+
+<p>
+    {{item['content_str']}}
+</p>
+
+</body>
+
+</html>
