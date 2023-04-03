@@ -11,7 +11,7 @@ nlp = spacy.load("en_core_web_sm")
 
 class SpacyDocument:
 
-    def __init__(self, text):
+    def __init__(self, text: str):
         self.text = text
         self.doc = nlp(text)
 
@@ -50,7 +50,7 @@ if __name__ == '__main__':
         "this week.")
 
     doc = SpacyDocument(example)
-    print(f"Tokens: {doc.get_tokens()}")
+    print(doc.get_tokens())
     for entity in doc.get_entities():
-        print("Entity", entity)
-    print(f"XML: {doc.get_entities_with_markup()}")
+        print(entity)
+    print(doc.get_entities_with_markup())
