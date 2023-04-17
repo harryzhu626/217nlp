@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="static/css/main.css"/>
+    
+    <title>
+        database
+    </title>
+</head>
+
+<body>
+    <a href="{{ url_for('home') }}" class="btn btn-primary">home</a>
+    <a href="{{ url_for('db') }}" class="btn btn-primary">db</a>
+
+    <p><center>entity table</center></p>
+    {{ table|safe }}
+
+</body>
+
+
+</html>
